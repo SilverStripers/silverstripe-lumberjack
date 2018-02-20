@@ -32,7 +32,6 @@ class GridFieldSiteTreeEditButton extends GridFieldEditButton
               'Link' => $record->CMSEditLink(),
               'ExtraClass' => $this->getExtraClass()
         ]);
-
         return $data->renderWith(GridFieldEditButton::class);
     }
 }
